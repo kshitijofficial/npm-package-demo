@@ -1,0 +1,30 @@
+{
+  "name": "npm-pacakge",
+  "version": "1.0.0",
+  "description": "Testing npm package",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare":"npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kshitijofficial/npm-package-demo.git"
+  },
+  "keywords": [
+    "demo npm pacakge"
+  ],
+  "author": "Kshitij",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kshitijofficial/npm-package-demo/issues"
+  },
+  "homepage": "https://github.com/kshitijofficial/npm-package-demo#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
